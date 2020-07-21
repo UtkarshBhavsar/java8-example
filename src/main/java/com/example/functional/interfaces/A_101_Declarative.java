@@ -1,11 +1,11 @@
-package com.example;
+package com.example.functional.interfaces;
 
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static com.example.A_101_Declarative.Gender.*;
+import static com.example.functional.interfaces.A_101_Declarative.Gender.*;
 
 public class A_101_Declarative {
     public static void main(String[] args) {

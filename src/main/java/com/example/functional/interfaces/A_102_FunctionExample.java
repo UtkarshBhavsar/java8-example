@@ -1,4 +1,4 @@
-package com.example;
+package com.example.functional.interfaces;
 
 import java.util.function.Function;
 
