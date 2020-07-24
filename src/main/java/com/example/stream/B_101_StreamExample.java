@@ -28,10 +28,10 @@ public class B_101_StreamExample {
         System.out.println(noneMatchFemales);
 
         personList.stream()
-                .takeWhile(person -> person.getGender() == MALE)
-                .filter(person -> person.getName().startsWith("BAA"))
-                .findAny()
-                .ifPresentOrElse(System.out::println, () -> System.out.println("Data not found"));
+                  .takeWhile(person -> person.getGender() == MALE)
+                  .filter(person -> person.getName().startsWith("BAA"))
+                  .findAny()
+                  .ifPresentOrElse(System.out::println, () -> System.out.println("Data not found"));
 
     }
 
